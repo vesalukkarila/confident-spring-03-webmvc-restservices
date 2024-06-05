@@ -2,11 +2,11 @@
 Introducing Spring Web MVC features
 
 ## Learning goals
-Spring WebMVC setup
-Writing REST services with WebMVC
-Validation
-Content negotiation: responses in both JSON and XML
-Exception handling against bad request
+Spring WebMVC setup  
+Writing REST services with WebMVC  
+Validation  
+Content negotiation: responses in both JSON and XML  
+Exception handling against bad request  
 
 ## Sources
 Based largely on learnings from Marco Behler's course "The confident Spring professional" https://www.marcobehler.com/ which I bought for myself in order to understand the fundamentals of Spring. 
