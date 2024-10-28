@@ -26,8 +26,41 @@ This repository is related to module 3 in Marco Behler's course "The confident S
 - @RestControllerAdvice applies to both @Controller and @RestController and writes JSON/XML to response body
 - @ControllerAdvice applies also to both @Controller and @RestController but writes HTML.  
 - With the help of Jackson libraries, Java objects can be written to response body in JSON/XML, based on content negotiation.
-  
-## Use
+
+
+  ## Getting Started
+
+To run the application, you have two choices:
+1. Run locally
+2. Run in Docker
+
+### Locally
+
+1. Ensure all the dependencies are installed
+2. Clone the repository  
+3. Build the project using Maven: 
+    ```sh
+    mvn clean install
+    ```
+4. Run the application with: 
+    ```sh
+    java -jar target/pdfinvoices-1.0-SNAPSHOT.jar
+    ```
+
+### Run in Docker
+1. Build the image:
+    ```shell
+    docker build . -t confident-03:latest     
+    ```
+2. Run the image:
+    ```shell
+    docker run -it -p 8080:8080 confident-03:latest 
+    ```
+3. Open the api in http://localhost:8080
+
+
+
+## Documentation
 Endpoints for local use:
 - GET "/" 
 - GET "/invoices" 
